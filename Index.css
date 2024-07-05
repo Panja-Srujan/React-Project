@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+}
+
+.nav-items {
+  padding-right: 50px;
+}
+.nav-items ul {
+  font-size: 24px;
+  /* font-weight: bold; */
+  display: flex;
+  list-style-type: none;
+  /* padding: 0px 15px; */
+}
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+#name {
+  padding: 15px;
+  border-radius: 10px;
+}
+.search-input {
+  display: inline-block;
+  margin: 12px auto;
+  width: 200px;
+  display: flex;
+  gap: 10px;
+}
+.button {
+  /* display: inline; */
+  padding: 0 25px;
+  border-radius: 10px;
+}
+.restro-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.restro-card {
+  width: 200px;
+  /* height: 250px; */
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  transform: translate(0, 0);
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+.restro-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  transform: translate(5px, 5px);
+}
+.restro-img {
+  width: 100%;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+.details span {
+  display: block;
+}
