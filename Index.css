@@ -68,3 +68,9 @@
 .details span {
   display: block;
 }
+.filter-btn {
+  margin: 18px;
+  padding: 10px;
+  cursor: pointer;
+  font-style: bold;
+}
