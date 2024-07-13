@@ -23,16 +23,16 @@
   margin: 10px;
   cursor: pointer;
 }
-#name {
+/* #name {
   padding: 15px;
   border-radius: 10px;
-}
-.search-input {
-  display: inline-block;
-  margin: 12px auto;
-  width: 200px;
-  display: flex;
-  gap: 10px;
+} */
+.search-bar {
+  /* display: inline-block; */
+  /* margin: 12px auto; */
+  /* width: 250px; */
+  /* display: flex; */
+  /* gap: 10px; */
 }
 .button {
   /* display: inline; */
@@ -73,4 +73,30 @@
   padding: 10px;
   cursor: pointer;
   font-style: bold;
+}
+.shimmer-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  width: 200px;
+  background-color: #f0f0f0;
+  height: 400px;
+  margin-top: 20px;
+}
+.login-btn {
+  padding: 0px 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+}
+.cost-for-two {
+  margin-top: 15px;
+}
+.user-card {
+  padding: 15px;
+  border: 1px solid black;
 }

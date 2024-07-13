@@ -1,9 +1,9 @@
 import { CDN_URL } from '../utils/constants';
 
 const RestaurantCard = Props => {
-  // console.log(Props);
+  console.log(Props);
   const { resData } = Props;
-  const { cloudinaryImageId, name, cuisines, areaName, avgRatingString } =
+  const { cloudinaryImageId, name, cuisines, areaName, avgRatingString, costForTwo, sla } =
     resData.info;
   return (
     <div className='restro-card'>
@@ -14,7 +14,8 @@ const RestaurantCard = Props => {
         <span>{areaName}</span>
         <span> {avgRatingString} ⭐</span>
       </div>
-      <h5>{resData.info.sla.deliveryTime} mins to Deliver</h5>
+      <div className='cost-for-two'> {costForTwo} </div>
+      <h5>{sla.deliveryTime} mins to Deliver</h5>
     </div>
   );
 };
